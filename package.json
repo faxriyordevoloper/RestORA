@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "@prisma/client": "^7.10.1",
+    "prisma": "^8.0.0-rc.33"
+  },
+  "scripts": {
+    "postinstall": "prisma skills sync || exit 0"
+  }
+}
